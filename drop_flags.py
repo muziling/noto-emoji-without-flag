@@ -14,7 +14,7 @@ def codepoints(font: ttLib.TTFont) -> Set[int]:
 
 
 def is_regional_indicator(cp: int) -> bool:
-    return 0x1F1E6 <= cp <= 0x1F1FF
+    return 0x0030 <= cp <= 0x0039
 
 
 def main(argv):
